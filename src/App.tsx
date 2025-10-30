@@ -10,6 +10,7 @@ import CasinoMedFreeSpins from "./pages/CasinoMedFreeSpins";
 import CasinoMedFreeSpinsUtanKrav from "./pages/CasinoMedFreeSpinsUtanKrav";
 import CasinoMedBankId from "./pages/CasinoMedBankId";
 import BotOptimized from "./pages/BotOptimized";
+import CasinoContent from "./pages/CasinoContent";
 
 const App = () => (
   <BrowserRouter>
@@ -18,6 +19,7 @@ const App = () => (
         <Route path="/" element={<Index />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="/nya-casinon" element={<NyaCasinon />} />
+        <Route path="/casino-content" element={<CasinoContent />} />
         <Route path="/casino-med-swish" element={<CasinoMedSwish />} />
         <Route path="/casino-med-bonus" element={<CasinoMedBonus />} />
         <Route path="/casino-med-bonus-utan-omsattningskrav" element={<CasinoMedBonusUtanOmsattningskrav />} />

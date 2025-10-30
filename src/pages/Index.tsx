@@ -1,7 +1,11 @@
 import Toplist from "@/components/toplist/toplist"
 import { casinosByRating } from "@/lib/casinos-data"
+import { useGoogleAdsRedirect } from "@/hooks/useGoogleAdsRedirect"
 
 export default function Index() {
+  // Redirect Google Ads traffic to /casino-content
+  useGoogleAdsRedirect("/casino-content");
+
   const dateDay = new Date().getDate().toString();
   const dateMonth = new Date().toLocaleString('default', { month: 'long' });
   const dateYear = new Date().getFullYear();
