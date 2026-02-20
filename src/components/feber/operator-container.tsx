@@ -6,17 +6,17 @@ import PerksContainer from './perks-container'
 import Rating from './rating'
 import BonusContainer from './bonus-container'
 
-import { Casino } from "@/types/types";
+import { Casino, Hotel } from "@/types/types";
 import LogoContainer from './logo-container'
 
-interface CasinoProps {
-    casino: Casino
+interface ItemProps {
+    item: Casino | Hotel
 }
 
 
-export default function OperatorContainer({ casino }: CasinoProps) {
+export default function OperatorContainer({ item }: ItemProps) {
 
-    const { title, logoObject, rating, excerpt, positive1, positive2, turnoverBonus, turnoverFreeSpins, perks, badges, affiliateLink, reviewLink } = casino;
+    const { title, logoObject, rating, excerpt, positive1, positive2, turnoverBonus, turnoverFreeSpins, perks, badges, affiliateLink, reviewLink } = item;
 
     return (
         <main>
