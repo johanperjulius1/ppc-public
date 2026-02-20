@@ -11,12 +11,13 @@ import CasinoMedFreeSpinsUtanKrav from "./pages/CasinoMedFreeSpinsUtanKrav";
 import CasinoMedBankId from "./pages/CasinoMedBankId";
 import BotOptimized from "./pages/BotOptimized";
 import CasinoContent from "./pages/CasinoContent";
+import Hotels from "./pages/Hotels";
 
 const App = () => (
   <BrowserRouter>
     <Layout>
       <Routes>
-        <Route path="/" element={<Index />} />
+        <Route path="/" element={<Hotels />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="/nya-casinon" element={<NyaCasinon />} />
         <Route path="/casino-content" element={<CasinoContent />} />
@@ -27,6 +28,7 @@ const App = () => (
         <Route path="/casino-med-free-spins-utan-omsattningskrav" element={<CasinoMedFreeSpinsUtanKrav />} />
         <Route path="/casino-med-bankid" element={<CasinoMedBankId />} />
         <Route path="/bot-optimized" element={<BotOptimized />} />
+        {/* <Route path="/casino/:slug" element={<CasinoReview />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>

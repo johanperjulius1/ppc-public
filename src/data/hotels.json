@@ -1,0 +1,106 @@
+[
+    {
+      "title": "Casino Malta",
+      "logoObject": {
+        "logoTitle": "Casinostugan",
+        "logoName": "casinostugan-transparent.png",
+        "backgroundColor": "#e3e3e3",
+        "altText": "Casinostugans logga",
+        "width": 120,
+        "height": 130
+      },
+      "rating": 3.5,
+      "bonusAmount": 2500,
+      "freeSpins": "N/A",
+      "excerpt": "Bonus Upp till 1000 kr + 100 Gratissnurr + 100 kr i Live Casino",
+      "positive1": "Bonus: 2500",
+      "positive2": "great design",
+      "turnoverBonus": 0,
+      "turnoverFreeSpins": "N/A",
+      "perks": {
+        "perk1": "Free drinks",
+        "perk2": "VIP lounge access",
+        "perk3": "Exclusive bonuses",
+        "perk4": "Priority support",
+        "perk5": "Cashback offers",
+        "perk6": "Loyalty points"
+      },
+      "badges": {
+        "trustly": true,
+        "swish": true,
+        "bankId": true,
+        "license": true
+      },
+      "newCasino": false,
+      "faq": [
+        {
+          "question": "Vad är de största fördelarna med nya casinon?",
+          "answer": "Nya casinon erbjuder ofta modern teknik, attraktiva bonusar och en förbättrad användarupplevelse."
+        },
+        {
+          "question": "Är nya casinon säkra att spela på?",
+          "answer": "Ja, förutsatt att de har en pålitlig licens från t.ex. Spelinspektionen eller Malta Gaming Authority."
+        },
+        {
+          "question": "Hur kan jag kontrollera om ett nytt casino är pålitligt?",
+          "answer": "Kontrollera casinots licens, läs användarrecensioner och undersök deras kundsupport och betalningsmetoder."
+        }
+      ],
+      "affiliateLink": "https://casinostugan.se",
+      "reviewLink": "/casino/casinostugan",
+      "metaDescription": "casinostugan ar ett av sveriges basta casinon",
+      "content": "# Welcome to Casinostugan\n\nCasinostugan offers a unique and exciting gaming experience with a variety of games and bonuses. Whether you're a seasoned player or new to online casinos, you'll find something to enjoy here.\n\n## Bonuses and Promotions\n\n- **Welcome Bonus**: Get up to 1000 kr plus 100 free spins.\n- **Live Casino Bonus**: Enjoy an additional 100 kr in the live casino.\n\n## Why Choose Casinostugan?\n\n- **Trustworthy**: Licensed and secure with Trustly, Swish, and BankID.\n- **Exclusive Perks**: Enjoy free drinks, VIP lounge access, and more.\n\n## Join Us Today!\n\nVisit [Casinostugan](https://casinostugan.se) to start your gaming adventure today!\n"
+    },
+    {
+      "title": "Casino Monaco",
+      "logoObject": {
+        "logoTitle": "LeoVegas",
+        "logoName": "leo-vegas-2.png",
+        "backgroundColor": "orange",
+        "altText": "Leovegas casino",
+        "width": 105,
+        "height": 35
+      },
+      "rating": 5,
+      "bonusAmount": 1000,
+      "freeSpins": 300,
+      "excerpt": "100% bonus upp till 4000 kr + 100 free spins",
+      "positive1": "Bonus: 1000",
+      "positive2": "300 free spin",
+      "turnoverBonus": 35,
+      "turnoverFreeSpins": 0,
+      "perks": {
+        "perk1": "Vip program",
+        "perk2": "Unlimitied credits",
+        "perk3": "VIP events",
+        "perk4": "Priority support",
+        "perk5": "Free cash",
+        "perk6": "Unlimited withdrawals"
+      },
+      "badges": {
+        "trustly": false,
+        "swish": true,
+        "bankId": false,
+        "license": false
+      },
+      "newCasino": true,
+      "faq": [
+        {
+          "question": "Vad är de största fördelarna med nya casinon?",
+          "answer": "Nya casinon erbjuder ofta modern teknik, attraktiva bonusar och en förbättrad användarupplevelse."
+        },
+        {
+          "question": "Är nya casinon säkra att spela på?",
+          "answer": "Ja, förutsatt att de har en pålitlig licens från t.ex. Spelinspektionen eller Malta Gaming Authority."
+        },
+        {
+          "question": "Hur kan jag kontrollera om ett nytt casino är pålitligt?",
+          "answer": "Kontrollera casinots licens, läs användarrecensioner och undersök deras kundsupport och betalningsmetoder."
+        }
+      ],
+      "affiliateLink": "https://leovegas.se",
+      "reviewLink": "/casino/leovegas",
+      "metaDescription": "LeoVegas ar ett av sveriges basta casinon",
+      "content": "# Welcome to LeoVegas\n![Example Image](/images/logos/LeoVegas/leovegas-mobile.webp)\n\nLeoVegas is renowned for its mobile-first approach, offering a seamless gaming experience across all devices. With a wide range of games and generous bonuses, it's a top choice for casino enthusiasts.\n\n## Bonuses and Promotions\n![Example Image](/images/logos/LeoVegas/leovegas-mobile.webp)\n\n- **Welcome Bonus**: Enjoy a 100% bonus up to 4000 kr plus 100 free spins.\n- **VIP Program**: Access exclusive VIP events and unlimited credits.\n\n## Why Choose LeoVegas?\n![Example Image](/images/logos/LeoVegas/leovegas-mobile.webp)\n\n- **Top-Rated**: Rated 5 stars for its exceptional service and offerings.\n- **Convenient**: Supports Trustly and Swish for easy transactions.\n\n## Start Playing Today!\n\nVisit [LeoVegas](https://leovegas.se) to explore the exciting world of online gaming!\n"
+    }
+  ]
