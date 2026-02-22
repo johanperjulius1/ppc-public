@@ -1,8 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import ReactMarkdown from "react-markdown";
-import { getCategoryBySlug, getCategorySlugs } from "@/lib/categories-utils";
-import { getCasinosForSlug } from "@/lib/casinos-data";
+import { getCategoryBySlug, getCategorySlugs, getCasinosForSlug } from "@/lib/categories-utils";
 import Toplist from "@/components/toplist/toplist";
 import NotFound from "./NotFound";
 import styles from "./CategoryPage.module.css";
