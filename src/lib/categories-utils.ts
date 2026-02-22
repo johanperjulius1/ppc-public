@@ -1,7 +1,12 @@
 import categoriesData from "../data/categories.json";
-import { Category } from "@/types/types";
+import { Category, FaqItem } from "@/types/types";
 
-type CategoryWithSlug = Category & { slug: string };
+/** Category as stored in categories.json (slug + faq as array) */
+export type CategoryWithSlug = Omit<Category, "faq"> & {
+  slug: string;
+  faq?: FaqItem[];
+};
+
 const categories: CategoryWithSlug[] = categoriesData as CategoryWithSlug[];
 
 export function getCategoryData(filePath: string): Category {
@@ -14,6 +19,18 @@ export function getCategoryData(filePath: string): Category {
       content: "",
     };
   }
-  const { slug: _slug, ...rest } = found;
-  return rest;
+  const { slug: _slug, faq, ...rest } = found;
+  return {
+    ...rest,
+    faq: faq && faq.length > 0 ? { faqItems: faq } : undefined,
+  };
+}
+
+export function getCategoryBySlug(slug: string): CategoryWithSlug | null {
+  const found = categories.find((c) => c.slug === slug) ?? null;
+  return found;
+}
+
+export function getCategorySlugs(): string[] {
+  return categories.map((c) => c.slug);
 }
