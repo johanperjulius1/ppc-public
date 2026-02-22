@@ -4,7 +4,7 @@ import { casinosByNewCasino } from "@/lib/casinos-data";
 export default function NyaCasinon() {
     return (
         <Toplist
-            casinos={casinosByNewCasino}
+            items={casinosByNewCasino}
             title="Nya Casinon"
             subtitle="Upptäck de senaste casinona"
         />

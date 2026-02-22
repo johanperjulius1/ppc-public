@@ -4,7 +4,7 @@ import { casinosByNoBonusTurnover } from "@/lib/casinos-data";
 export default function CasinoMedBonusUtanOmsattningskrav() {
     return (
         <Toplist
-            casinos={casinosByNoBonusTurnover}
+            items={casinosByNoBonusTurnover}
             title="Casino med Bonus utan Omsättningskrav"
             subtitle="Bästa casinona med bonusar utan omsättningskrav"
         />
