@@ -11,3 +11,8 @@ export const casinosByHighestBonusAmount: Casino[] = sortByHighestBonusAmount(ca
 export const casinosByNoBonusTurnover: Casino[] = sortByNoBonusTurnover(casinos);
 export const casinosBySwishSupport: Casino[] = sortBySwish(casinos);
 export const casinosByBankIdSupport: Casino[] = sortByBankIdSupport(casinos);
+
+/** Find casino by URL id (e.g. "leovegas" for /casino/leovegas). Uses reviewLink. */
+export function getCasinoById(id: string): Casino | null {
+  return casinos.find((c) => c.reviewLink === `/casino/${id}`) ?? null;
+}

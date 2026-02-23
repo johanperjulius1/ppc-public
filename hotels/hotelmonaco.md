@@ -36,7 +36,7 @@ faq:
   - question: "Hur kan jag kontrollera om ett nytt casino är pålitligt?"
     answer: "Kontrollera casinots licens, läs användarrecensioner och undersök deras kundsupport och betalningsmetoder."
 affiliateLink: "https://leovegas.se"
-reviewLink: "/casino/leovegas"
+reviewLink: "/hotel/hotelmonaco"
 metaDescription: "LeoVegas ar ett av sveriges basta casinon"
 
 ---

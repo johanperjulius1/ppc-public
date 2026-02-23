@@ -88,6 +88,7 @@ if (fs.existsSync(hotelsDir)) {
     const filePath = path.join(hotelsDir, file);
     const content = fs.readFileSync(filePath, "utf-8");
     const { data, content: markdownContent } = matter(content);
+    const hotelSlug = path.basename(file, ".md");
     hotels.push({
       title: data.title,
       logoObject: data.logoObject,
@@ -104,7 +105,7 @@ if (fs.existsSync(hotelsDir)) {
       newCasino: data.newCasino,
       faq: data.faq,
       affiliateLink: data.affiliateLink,
-      reviewLink: data.reviewLink,
+      reviewLink: data.reviewLink || `/hotel/${hotelSlug}`,
       metaDescription: data.metaDescription,
       content: markdownContent,
     });
