@@ -3,19 +3,20 @@ import BotMenu from "@/components/menu/BotMenu";
 import Footer from "@/components/footer/footer";
 import styles from './layout.module.css';
 import { ReactNode } from 'react';
-import { useIsBot } from '@/hooks/useBotDetection';
+// import { useIsBot } from '@/hooks/useBotDetection';
 
 interface LayoutProps {
   children: ReactNode;
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const isBot = useIsBot();
-  console.log(isBot)
+  // const isBot = useIsBot();
+  // console.log(isBot)
 
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-      {isBot ? <Menu /> : <Menu />}
+      {/* {isBot ? <Menu /> : <Menu />} */}
+      <BotMenu/>
       <main className={styles.main}>{children}</main>
       <Footer />
     </div>
