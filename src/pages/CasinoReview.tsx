@@ -70,7 +70,7 @@ export default function CasinoReview() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Spela nu
+          Besok nu
         </a>
       </section>
     </div>

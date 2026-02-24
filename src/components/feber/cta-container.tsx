@@ -11,7 +11,7 @@ interface CtaProps {
 export default function CtaContainer({ className, affiliateLink, reviewLink }: CtaProps) {
     return (
         <div className={className}>
-            <a className={classes["play-now"]} href={affiliateLink} target="_blank" rel="noopener noreferrer">Spela nu</a>
+            <a className={classes["play-now"]} href={affiliateLink} target="_blank" rel="noopener noreferrer">Besok nu</a>
             <a className={classes["review"]} href={reviewLink} rel="noopener noreferrer">Läs recension</a>
         </div>
     )
