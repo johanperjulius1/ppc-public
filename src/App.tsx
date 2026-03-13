@@ -13,9 +13,9 @@ const App = () => (
     <Layout>
       <Routes>
         <Route path="/" element={<Hotels />} />
-        <Route path="/casino-content" element={<CasinoContent />} />
+        {/* <Route path="/casino-content" element={<CasinoContent />} />
         <Route path="/bot-optimized" element={<BotOptimized />} />
-        <Route path="/casino/:id" element={<CasinoReview />} />
+        <Route path="/casino/:id" element={<CasinoReview />} /> */}
         <Route path="/hotel/:id" element={<HotelReview />} />
         <Route path="/:slug" element={<CategoryPage />} />
         <Route path="*" element={<NotFound />} />
